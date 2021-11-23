@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Accepting User Choice</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+     <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 130%;
+            background-color:rgb(184, 112, 184);
+            color: rgb(248, 240, 153);
+            cursor: pointer;
+        }
+        input {
+            padding: 5px 5px 12px 5px; 
+            font-size: 25px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            width: 320px;
+        }
+        label {
+            position: relative;
+            top: 12px;
+            width: 200px;
+            float: left;
+        }
+        .form-element {
+            margin-bottom: 10px;
+        }
+        #submitButton {
+            width: 130px;
+            margin-left: 200px;
+            background-color: rgb(248, 240, 153);
+            color: rgb(184, 112, 184);
+        }
+          #container {
+            width: 600px;
+            height: 500px;
+            margin: 0 auto;
+            background: rgb(184, 112, 184);
+            box-shadow: 0px 5px 50px 5px;
+            padding: 20px 0px 0px 20px;
+            border-radius: 40px;
+            
+        }
+        </style>
+    <body >
+        <div id=container">
+        
+        <form method="GET" action="Login">
+         
+            
+        <div class="form-element">
+           
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname">
+
+        </div>
+            
+         <div class="form-element">
+           
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname">
+
+        </div>
+            
+         <div class="form-element">
+           
+            <label for="middlename">Middle Name</label>
+            <input type="text" name="middlename" id="middlename">
+
+        </div>
+            
+         <div class="form-element">
+           
+            <label for="Address">Address</label>
+            <input type="text" name="address" id="Address">
+
+        </div>
+ 
+         <div class="form-element">
+           
+            <label for="age">Age</label>
+            <input type="text" name="age" id="age">
+
+        </div>
+            
+        <div class="form-element">
+           
+            <label for="Email">Email</label>
+            <input type="text" name="email" id="email" placeholder="example@gmail.com">
+
+        </div>
+        
+        <div class="form-element">
+
+            <label for="Telephone">Telephone</label>
+            <input type="text" name="phone" id="phone">
+
+        </div>
+            <br>
+          
+        <select name="color" size="1">
+                <option>light</option>
+                <option>amber</option>
+                <option>brown</option>
+                <option>dark</option>
+        </select>
+
+        <div class="form-element">
+
+            <input type="submit" id="submitButton" value="Sign Up">
+
+        </div>
+    </div>
+    
+      
+          
+    </form >
+</div>
+
+        
+<!--        
+            Username: <input type="text" name="username"/>
+            <br>
+            First Name: <input type="text" name="firstname"/>
+            <br>
+            Last Name: <input type="text" name="lastname"/>
+            <br>
+            Middle Name: <input type="text" name="middlename" />
+            <br>
+            Address: <input type="text" name="address" />
+            <br>
+             Age: <input type="number" name="age"/>-->
+             <br>
+      
+    </body>
+</html>
